@@ -19,7 +19,7 @@ A real-time communication platform leveraging modern web technologies for seamle
 - **Real-time Communication**: Socket.IO, WebRTC
 - **Databases**: MongoDB 6.6, Redis
 - **Authentication**: Passport.js (Local & GitHub strategies)
-- **Build Tools**: PostCSS, Biome
+- **Build Tools**: PostCSS, Tailwindcli
 
 ## 📋 Prerequisites
 
