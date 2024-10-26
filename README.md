@@ -70,11 +70,6 @@ npm start
 npm run watch:css
 ```
 
-## 🧪 Testing
-```bash
-npm test
-```
-
 ## 📁 Project Structure
 
 ```
