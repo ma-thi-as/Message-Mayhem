@@ -1,0 +1,52 @@
+{
+  "name": "discord-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "start-dev": "node --watch src/app.js",
+    "compile": "npm install",
+    "build:css": "",
+    "watch:css": "postcss src/public/css/input.css -o src/public/css/style.css; npm run start-dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "biome": "^0.2.2",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-partials": "^0.3.0",
+    "express-session": "^1.18.0",
+    "memorystore": "^1.6.7",
+    "method-override": "^3.0.0",
+    "mongodb": "6.6",
+    "passport": "^0.7.0",
+    "passport-github2": "^0.1.12",
+    "passport-local": "^1.0.0",
+    "redis": "^4.6.14",
+    "remove": "^0.1.5",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "uninstall": "^0.0.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.8",
+    "utf-8-validate": "^5.0.10"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "standard": "^17.1.0",
+    "tailwindcss": "^3.4.11",
+    "tape": "^5.9.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MM Home</title>
+  <link rel="stylesheet" type="text/css" href="/css/tailwind.css" />
+  <link rel="stylesheet" type="text/css" href="/css/index.css" />
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script type="module" src="js/socketHome.js" data-current="<%= JSON.stringify(user)%>" data-origin="<%=originUrl%>"></script>
+  
+</head>
+
+<body class="bg-custom1">
+    <div class="h-screen ">
+      <%- include('./components/asideMenu') %>
+       <div class="px-4 xl:ml-80  h-full">
+         <%- include('./components/nav') %>
+
+         <%- include('./components/infoCards') %>
+
+       </div>
+
+      <%- include('./components/modal') %>
+
+    </div>
+<script src="/js/guestInstructions.js"></script>
+</body>
+
+</html>
