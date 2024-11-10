@@ -24,9 +24,8 @@ A real-time communication platform leveraging modern web technologies for seamle
 ## 📋 Prerequisites
 
 - Node.js (Latest LTS version recommended)
-- MongoDB 6.6
+- Mongo Atlas or MongoDB
 - Redis
-- Git
 
 ## 🚀 Installation
 
