@@ -17,7 +17,7 @@ A real-time communication platform leveraging modern web technologies for seamle
 - **Backend**: Node.js, Express.js
 - **Frontend**: EJS, TailwindCSS
 - **Real-time Communication**: Socket.IO, WebRTC
-- **Databases**: MongoDB 6.6, Redis
+- **Databases**: Mongo Atlas, Redis
 - **Authentication**: Passport.js (Local & GitHub strategies)
 - **Build Tools**: PostCSS, Tailwindcli
 
