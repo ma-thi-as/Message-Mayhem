@@ -11,6 +11,7 @@ A real-time communication platform leveraging modern web technologies for seamle
 - Robust data persistence using MongoDB and Redis
 - User authentication and session management
 - Friend system and chat room functionality
+- Pure Vanilla Js
 
 ## 🛠️ Technologies
 
@@ -68,18 +69,6 @@ npm start
 ```bash
 npm run watch:css
 ```
-
-## 📁 Project Structure
-
-```
-src/
-├── app.js              # Application entry point
-├── public/             # Static files
-│   └── css/           # CSS files
-├── views/             # EJS templates
-└── routes/            # Express routes
-```
-
 
 ## 📄 License
 
